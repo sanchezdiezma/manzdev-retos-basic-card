@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 600;
+    src:
+        local('Open Sans'),
+        url('/src/assets/fonts/Montserrat/static/Montserrat-Bold.ttf') format('truetype');
+}     
+        
+
+
+
+
+
+
+:root {
+    --bgcolor-primary: #ff3867;
+    --bgcolor-secondary: #ffc873;
+    --bgcolor-tertiary: #d37ec6;
+    --bgcolor-primary-aux: #a05d5d;
+    --bgcolor-secondary-aux: #2d7cbf;
+    --bgcolor-tertiary-aux: #888888;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+height: 100vh;
+background: rgb(255, 56, 103);
+    background: -moz-linear-gradient(209deg, rgba(255, 56, 103, 1) 0%, rgba(255, 200, 115, 1) 50%, rgba(211, 126, 198, 1) 100%);
+    background: -webkit-linear-gradient(209deg, rgba(255, 56, 103, 1) 0%, rgba(255, 200, 115, 1) 50%, rgba(211, 126, 198, 1) 100%);
+    background: linear-gradient(209deg, rgba(255, 56, 103, 1) 0%, rgba(255, 200, 115, 1) 50%, rgba(211, 126, 198, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff3867", endColorstr="#d37ec6", GradientType=1);
+}
+
+.card__container {
+    display: flex;
+    justify-content: center;
+   
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+.card__body {
+    width: 350px;
+    height: 600px;
+    background-color: white;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    top: 100px;
+}
+    
+   
+    
+    
+
+.card__img {
+    width: 450px;
+    position: relative;
+    bottom: 150px;
+    border-bottom:  solid 5px var(--bgcolor-primary);
+    
+}
+
+.card__avatar {
+    width: 175px;
+    border: solid 5px var(--bgcolor-primary);
+    border-radius: 90px;
+    position: relative;
+    bottom: 300px;
+    left: 90px;
+    
+    
+}
+
+.card__text {
+    font-size: 3rem;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 270px;
+    left: 110px;
+    
+}
+
+    
+    
+    
+    
+    
+    
+
+   
+
+
+
+
+
+
